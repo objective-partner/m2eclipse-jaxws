@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: tests for m2e connector for jaxws-maven-plugin
+Bundle-SymbolicName: de.objective-partner.m2e.jaxws.tests
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: objective partner AG
+Bundle-RequiredExecutionEnvironment: J2SE-1.5,
+ JavaSE-1.6
