@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.m2e.core.projectConfigurators">
+      <configurator
+            class="de.objective_partner.m2e.jaxws.internal.JaxWsProjectConfigurator"
+            id="de.objective-partner.m2e.jaxws.jaxwsConfigurator"
+            name="JaxWS Project Configurator">
+      </configurator>
+   </extension>
+
+</plugin>
