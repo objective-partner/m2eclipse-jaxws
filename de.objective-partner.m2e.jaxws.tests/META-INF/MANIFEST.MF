@@ -6,4 +6,4 @@ Bundle-Version: 0.0.1.qualifier
 Bundle-Vendor: objective partner AG
 Bundle-RequiredExecutionEnvironment: J2SE-1.5,
  JavaSE-1.6
-Require-Bundle: de.objective-partner.m2e.jaxws;bundle-version="0.0.1"
+Require-Bundle: de.objective-partner.m2e.jaxws
