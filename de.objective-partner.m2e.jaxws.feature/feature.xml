@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="de.objective_partner.m2e.jaxws.feature"
+      id="de.objective-partner.m2e.jaxws.feature"
       label="Feature"
-      version="1.0.0.qualifier"
+      version="0.0.1.qualifier"
       provider-name="objective partner AG">
 
    <description url="http://www.example.com/description">

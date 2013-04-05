@@ -1,0 +1,8 @@
+<site>
+	<feature
+		url="features/de.objective-partner.m2e.jaxws.feature_0.0.0.qualifier.jar"
+		id="de.objective-partner.m2e.jaxws.feature" version="0.0.0.qualifier">
+		<category name="m2eclipse-jaxws" />
+	</feature>
+	<category-def name="m2eclipse-jaxws" label="Maven JaxWS Livecycle-Mapping for m2eclipse" />
+</site>

@@ -15,6 +15,24 @@
 	<build>
 		<plugins>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<descriptors>
+						<descriptor>src/main/assembly/assembly.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-p2-plugin</artifactId>
 				<version>${tycho-version}</version>
@@ -26,8 +44,10 @@
 							<goal>category-p2-metadata</goal>
 						</goals>
 						<configuration>
-							<metadataRepositoryName>foo</metadataRepositoryName>
-							<artifactRepositoryName>bar</artifactRepositoryName>
+							<metadataRepositoryName>Maven JaxWS Livecycle-Mapping for
+								m2eclipse</metadataRepositoryName>
+							<artifactRepositoryName>Maven JaxWS Livecycle-Mapping for
+								m2eclipse</artifactRepositoryName>
 						</configuration>
 					</execution>
 				</executions>
